@@ -1,0 +1,68 @@
+/* Estilos para la ventana emergente */
+#advertenciadelsatff{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	cursor: pointer;
+}
+
+#ventanaflotante{
+	width: 500px;
+	height: 500px;
+	background: #ffffff;
+	position: fixed;
+	left: 45%;	
+    top: 100%;
+	margin-left: -200px;
+	margin-top: -125px;
+}
+#ventanaflotante h3{
+	width: 94%;
+	padding: 2% 3%;
+	margin: 0;
+	text-align: left;
+	background: #bb1919;
+	color: #fff;
+}
+#cerrar{
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAtElEQVQ4jaWSQRGDMBRElxpAQiUgpRKQgoRKiIRKQELqAAmZKng9kAyh5P8c+m5M/luSTSRJwAS8gACMcgCWPDupkhMH0QrJPygkYBKwciV25MJmBQCEjgywto5wCnHk/QhGDz0OudrmyF5gjwjcrSvqhVxu6FZ/DMPwkfR2nsE7z7TBLqwm/CO3Qxw5Op2EIi+OPOIX+5SxmKjadkKSgEdDPj8SO2Qui3MWt5b8E7Lm2VmSvoHNt6Fnva9zAAAAAElFTkSuQmCC') no-repeat;
+	width: 16px;
+	height: 16px;
+	float: right;
+	margin-top: 3px;
+	cursor: pointer;
+}
+#gifparalaocacion{
+	background: url('http://66.media.tumblr.com/39a3a05d4efa2470377d82865fe7a99c/tumblr_mi2ena8W8R1rcj8eco1_500.gif') no-repeat;
+	height: 250px;
+	float: center;
+	margin-top: 3px;
+}
+.contenidodelmensaje{
+    background: #E3EDE3;
+    border: 1px solid #5FA75E;
+    color: #385d3b;
+	text-align: center;
+	padding: 10px;
+	margin: 10px 10px;
+	font-size: 20px;
+    border-radius: 5px;
+    line-height: 135%;
+}
+
+.cuentadesegundos{
+    background: #DFDFDF;
+	text-align: center;
+	padding: 10px;
+	margin: 10px 0;
+	font-size: 18px;
+}
+
+/* mensaje de la cuenta atras */
+#time{
+    color: #bb1919;
+	font-size: 20px;
+}
